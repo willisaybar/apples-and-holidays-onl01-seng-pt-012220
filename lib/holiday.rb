@@ -16,8 +16,9 @@ def add_supply_to_memorial_day(holiday_hash, supply)
     holiday_hash[:summer][:fourth_of_july][1]
     holiday_hash[:winter][:christmas] = "Balloons"
     holiday_hash[:winter][:new_years] = "Balloons"
-    holiday_hash[:spring][:memorial_day] = "Grill"
-    holiday_hash[:spring][:memorial_day] = "Table Cloth"
+    holiday_hash[:spring][:memorial_day].push(supply)
+    # holiday_hash[:spring][:memorial_day] = "Grill"
+    # holiday_hash[:spring][:memorial_day] = "Table Cloth"
 end
   
 
